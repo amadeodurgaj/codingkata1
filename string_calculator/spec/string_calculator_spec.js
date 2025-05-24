@@ -18,4 +18,8 @@ describe('String Calculator', function() {
 	it('should return 28 for 1,27', function() {
 		expect(calculator.add('1,27')).toEqual(28);
 	});
+
+	it('should return 53 for 15,17,21', function() {
+		expect(calculator.add('15,17,21')).toEqual(53);
+	});
 });
