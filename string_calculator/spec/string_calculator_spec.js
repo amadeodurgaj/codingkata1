@@ -30,4 +30,8 @@ describe('String Calculator', function() {
 	it('should return 11111 for 1,10,100,1000,10000', function() {
 		expect(calculator.add('1,10,100,1000,10000')).toEqual(11111);
 	});
+
+	it('should return 10 for A,10', function() {
+		expect(calculator.add('A,10')).toEqual(10);
+	});
 });
