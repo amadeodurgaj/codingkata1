@@ -26,4 +26,8 @@ describe('String Calculator', function() {
 	it('should return 78 for 1,5,27,45', function() {
 		expect(calculator.add('1,5,27,45')).toEqual(78);
 	});
+
+	it('should return 11111 for 1,10,100,1000,10000', function() {
+		expect(calculator.add('1,10,100,1000,10000')).toEqual(11111);
+	});
 });
